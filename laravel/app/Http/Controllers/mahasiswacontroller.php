@@ -13,7 +13,8 @@ class mahasiswacontroller extends Controller
      */
     public function index()
     {
-        return 'Hi';
+        return view('mahasiswa.index') ;
+
     }
 
     /**
